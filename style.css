@@ -107,3 +107,69 @@ nav {
     color: #666;
     font-size: 14px;
 }
+
+.vision-section {
+    padding: 60px;
+    background-color: #f9f9f9;
+}
+.vision-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.vision-desc {
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+.vision-cards {
+    display: flex;
+    gap: 20px;
+}
+.vision-card {
+    flex: 1;
+    border-radius: 10px;
+    padding: 25px;
+}
+.vision-card img {
+    width: 45px;
+    margin-bottom: 15px;
+}
+.vision-h {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.vision-p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.vision-blue { background-color: #dce8f5; }
+.vision-green { background-color: #d4f0e0; }
+.vision-yellow { background-color: #fef3cd; }
+
+.btn-blue {
+    background-color: #3a7bd5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-green {
+    background-color: #1a6b4a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-yellow {
+    background-color: #f0a500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
