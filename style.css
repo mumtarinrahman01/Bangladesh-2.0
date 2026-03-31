@@ -277,3 +277,42 @@ nav {
 .donate-btn-wrap {
     margin-top: 10px;
 }
+.newsletter-section {
+    padding: 60px;
+    background-color: #d4f0e0;
+    text-align: center;
+}
+.newsletter-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.newsletter-desc {
+    color: #555;
+    margin-bottom: 25px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    max-width: 500px;
+    margin: 0 auto 15px auto;
+}
+.newsletter-input {
+    flex: 1;
+    padding: 14px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    border-right: none;
+}
+.newsletter-form .btn-primary {
+    border-radius: 0 5px 5px 0;
+}
+.newsletter-note {
+    color: #666;
+    font-size: 13px;
+}
